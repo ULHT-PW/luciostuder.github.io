@@ -1,6 +1,7 @@
 # GitHub Pages e Codespaces
 
-
+* Guarda o teu website no repositorio username.github.io, para que fique disponivel live!
+* Usa o Codespaces para no browser editar os ficheiros do teu repositorio com VSCode!
 
 my website available in https://ulht-pw.github.io/luciostuder.github.io/ 
 

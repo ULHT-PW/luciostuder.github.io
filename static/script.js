@@ -14,3 +14,7 @@ h1.onmouseover = () => {
   localStorage.setItem('counter', counter);
 }
 h1.onmouseout = () => h1.classList.remove('colored');
+
+function saudar() {
+  alert("Viva o HTML!")
+}

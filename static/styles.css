@@ -1,4 +1,12 @@
 body {
   background:purple;
   color: khaki;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.colored {
+  color: red;
 }

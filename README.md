@@ -1,11 +1,13 @@
 # GitHub Pages e Codespaces
 
-* Guarda o teu website no repositorio username.github.io, para que fique disponivel live!
-* Usa o Codespaces para no browser editar os ficheiros do teu repositorio com VSCode!
+1. Guarda o teu website no repositorio username.github.io, para que fique disponivel live!
+2. Usa o Codespaces para no browser editar os ficheiros do teu repositorio com VSCode!
 
-my website available in https://ulht-pw.github.io/luciostuder.github.io/ 
 
-* O GitHub é plataforma para alojar codigo fonte.
+## Sumário 
+Visite o website disponível em https://ulht-pw.github.io/luciostuder.github.io/ 
+
+* O GitHub é uma plataforma para alojar codigo fonte.
 * Graças ao serviço GitHub Pages, permite alojar páginas web estáticas, ficando o seu site público num URL próprio.
 * O servico Codespaces permite por outro lado editar online os ficheiros do seu repositório, apenas precisando de um browser para ter acesso a um ambiente de desenvolvimento profissional.
 

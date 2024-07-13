@@ -1,17 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>luciostuder</title>
-  <link rel="shortcut icon" href="https://github.githubassets.com/favicon.ico" id="js-favicon">
-  <link rel="stylesheet" href="static/styles.css">
-</head>
-<body>
-  <h1>O meu super website no github-pages!</h1>
-  <p>Este é o meu primeiro website a correr no github, é espetacular 😎!</p>
-  <p>O título foi sobrevoado por mim <span id="count">0</span> vezes</p>
-  <button onclick="saudar()">Mensagem</button>
-  <script src="static/script.js"></script>
-</body>
+<html>
+  <head>
+    <title>DIW</title>
+    <style>
+      img {
+        width:200px;
+        float: right;
+        margin-right: 50px;
+      }
+      img:hover {
+        
+        transform: rotate(20deg);
+      }
+      body{background-color: aqua;}
+    </style>
+    <script>
+      function muda_cor() {
+        let body = document.querySelector('body');
+        if (body.style.backgroundColor == "aqua") {
+          body.style.backgroundColor = "greenyellow";
+        }
+        else {
+          body.style.backgroundColor = "aqua";
+        }  
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Desenvolvimento de Interfaces Web</h1>
+    <img src="pw.jpg" alt="conteúdos">
+    <p>Bem vindos a esta nova disciplina. Esperamos que gostem! 😀</p>
+    <p>Lista de tecnologias:</p>
+    <ol>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ol>
+    <p>Pesquisem no <a href="http://www.google.pt">Google</a>, ou aqui:</p>
+    <form action="http://www.google.pt/search">
+      <input type="text" placeholder="pesquise" name="q">
+      <input type="submit" value="Pesquise">
+    </form>
+    <button onclick="muda_cor()">Mude a cor de fundo</button>
+    <p>Espero que tenham ficado curiosos em conhecer o HTML! </p>
+  </body>
 </html>
+
+
